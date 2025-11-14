@@ -6,6 +6,6 @@ public class DatabaseContext : DbContext
     {
 
     }
-    public DbSet<Product> Customers { get; set; }
+    public DbSet<Product>  Product { get; set; }
 
 }
